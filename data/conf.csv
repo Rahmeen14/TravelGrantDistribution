@@ -14,7 +14,7 @@ id,track,code,name,prestige
       Conference,1
 11,AI,ICML, Intl Conf on Machine Learning,1
 12,AI,UAI, Conference on Uncertainty in AI,1
-13,AI,UMAP, Intl Conf on User Modeling, Adaptation and Personalization,1
+13,AI,UMAP, Intl Conf on User Modeling Adaptation and Personalization,1
 14,AI,NIPS, Neural Information Processing
       Systems,1
 15,AI,AAMAS, International Conference on Autonomous Agents and Multiagent Systems,1
@@ -44,10 +44,10 @@ id,track,code,name,prestige
 30,GV,3DG, ACM-SIGRAPH Interactive 3D Graphics,1
 31,MM,ACM-MM, ACM Multimedia Conference,1
 32,NC,SIGCOMM, ACM Conf on Applic,
-      Techno, Archit, and Protocols for Comp
+      Techno, Archit and Protocols for Comp
       Comm,1
-33,NC,PERFORMANCE, IFIP Intl Symp
-      on Computer Performance, Modeling, Measurements 
+33,NC,PERFORMANCE IFIP Intl Symp
+      on Computer Performance Modeling Measurements 
       Evaluation,1
 34,NC,SIGMETRICS, ACM Conf on Meas. & Modelling
       of Comp Sys,1
@@ -204,7 +204,7 @@ id,track,code,name,prestige
 129,NL,NLDB, Applications of Natural Language to
       Data Bases,5
 130,ED,ICCE, Intl Conf on Computers in Education,5
-131,ED,EDmedia, World Conf on Educational Multimedia, Hypermedia  Telecommunications,5
+131,ED,EDmedia, World Conf on Educational Multimedia Hypermedia  Telecommunications,5
 132,ED,AH, Intl Conf on Adaptive Hypermedia and Adaptive Web-Based Systems,5
 133,W3,APweb, Asia Pacific Web Conference,5
 134,W3,WAIM, Intl Conf on Web-Age
@@ -223,7 +223,7 @@ id,track,code,name,prestige
       Vision,5
 142,MM,MMM, Multimedia Modelling,5
 143,NC,HPCN, High-Performance Computing and Networking Geometry Modeling and Processing,5
-144,SE,ARES, Intl Conf on Availability, Reliability and Security,5
+144,SE,ARES, Intl Conf on Availability Reliability and Security,5
 145,OS,DSS, Distributed Simulation Symposium,5
 146,OS,SCSC, Summer Computer Simulation Conference,5
 147,OS,WCSS, World Congress on Systems Simulation,5
