@@ -33,7 +33,7 @@ for conf_list in soup.findAll('ul'):
         list_of_tracks.append(track_name)
         list_of_rows.append(list_of_tracks)'''
 print conf_id
-outfile = open('data/conf.csv', 'wb')
+outfile = open('path/to/conf.csv', 'wb')
 writer = csv.writer(outfile)
 writer.writerow(['id', 'track', 'code', 'name', 'prestige'])
 writer.writerows(list_of_rows)

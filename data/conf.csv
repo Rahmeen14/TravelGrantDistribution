@@ -5,140 +5,82 @@ id,track,code,name,prestige
 4,DB,ICDE, IEEE Intl Conf on Data Engineering,1
 5,DB,ICDT, Intl Conf on Database Theory,1
 6,DB,EDBT, Extending DB Technology,1
-7,DM,SIGKDD, ACM Knowledge Discovery and Data
-      Mining,1
-8,DM,ICDM, IEEE International Conference on Data
-      Mining,1
+7,DM,SIGKDD, ACM Knowledge Discovery and Data Mining,1
+8,DM,ICDM, IEEE International Conference on Data Mining,1
 9,AI,IJCAI, Intl Joint Conf on AI,1
-10,AI,AAAI, American Association for AI National
-      Conference,1
+10,AI,AAAI, American Association for AI National Conference,1
 11,AI,ICML, Intl Conf on Machine Learning,1
 12,AI,UAI, Conference on Uncertainty in AI,1
 13,AI,UMAP, Intl Conf on User Modeling Adaptation and Personalization,1
-14,AI,NIPS, Neural Information Processing
-      Systems,1
+14,AI,NIPS, Neural Information Processing Systems,1
 15,AI,AAMAS, International Conference on Autonomous Agents and Multiagent Systems,1
-16,NL,ACL, Association for Computational
-      Linguistics,1
-17,ED,AIED, Intl Conf on Artificial Intelligence
-      in Education,1
+16,NL,ACL, Association for Computational Linguistics,1
+17,ED,AIED, Intl Conf on Artificial Intelligence in Education,1
 18,ED,ITS, Intelligent Tutoring System Conference,1
-19,IR,SIGIR, ACM SIGIR Conf on Information
-      Retrieval,1
+19,IR,SIGIR, ACM SIGIR Conf on Information Retrieval,1
 20,W3,WWW, World-Wide Web Conference,1
 21,W3,ICIS, Intl Conf on Information Systems,1
-22,DP,PPoPP, Principles and Practice of Parallel
-      Programming,1
-23,DP,PACT, Intl Conf on Parallel Arch and
-      Compil Tech,1
-24,DP,IPDPS, IEEE Intl Parallel and Dist
-      Processing Symp,1
-25,DP,ICPP, Intl Conf on Parallel
-      Processing,1
-26,DP,Euro-Par, European Conf. on Parallel
-      Computing,1
+22,DP,PPoPP, Principles and Practice of Parallel Programming,1
+23,DP,PACT, Intl Conf on Parallel Arch and Compil Tech,1
+24,DP,IPDPS, IEEE Intl Parallel and Dist Processing Symp,1
+25,DP,ICPP, Intl Conf on Parallel  Processing,1
+26,DP,Euro-Par, European Conf. on Parallel  Computing,1
 27,GV,IGGRAPH, ACM SIGGRAPH Conference,1
-28,GV,CVPR, IEEE Conf on Comp Vision and Pattern
-      Recognition,1
+28,GV,CVPR, IEEE Conf on Comp Vision and Pattern Recognition,1
 29,GV,CCV, Intl Conf on Computer Vision,1
 30,GV,3DG, ACM-SIGRAPH Interactive 3D Graphics,1
 31,MM,ACM-MM, ACM Multimedia Conference,1
-32,NC,SIGCOMM, ACM Conf on Applic,
-      Techno, Archit and Protocols for Comp
-      Comm,1
-33,NC,PERFORMANCE IFIP Intl Symp
-      on Computer Performance Modeling Measurements 
-      Evaluation,1
-34,NC,SIGMETRICS, ACM Conf on Meas. & Modelling
-      of Comp Sys,1
-35,NC,INFOCOM, Annual Joint Conf IEEE Comp & Comm
-      Soc,1
-36,NC,MOBICOM, ACM Intl Conf on Mobile Computing
-      and Networking,1
-37,SE,IEEE Symposium on Security and
-      Privac,(SE) IEEE Symposium on Security and
-      Privacy,1
-38,SE,CCS, ACM Conf on Comp and Communications
-      Security,1
-39,OS,SOSP, ACM SIGOPS Symp on OS
-      Principles,1
-40,OS,OSDI,  Usenix Symp on OS Design and
-      Implementation,1
-41,DB,ER, Intl Conf on Conceptual Modeling
-      (Conf on the Entity Relationship Approach),3
-42,DB,SSDBM, Intl Conf on Scientific and
-      Statistical DB Mgmt,3
-43,DB,FODO, Intl Conf on Foundation on Data
-      Organization,3
-44,DB,DASFAA, Database Systems for Advanced
-      Applications,3
-45,DB,SSD, Intl Symp on Large Spatial
-      Databases,3
-46,DB,DOOD, Deductive and Object-Oriented
-      Databases,3
-47,DB,CIKM, Intl. Conf on Information and
-      Knowledge Management,3
-48,DB,CoopIS, Conference on Cooperative
-      Information Systems,3
-49,DM,PAKDD, Pacific-Asia Conf on Know. Discovery
-       Data Mining,3
-50,DM,PKDD, European Conf on Principles and
-      Practice of Knowledge Discovery in Databases,3
-51,DM,DAWAK, Intl Conf on Data Warehousing and
-      Knowledge Discovery,3
-52,DM,SDM, SIAM International Conference on Data
-      Mining,3
+32,NC,SIGCOMM, ACM Conf on Protocols for Comp Comm,1
+33,NC,PERFORMANCE IFIP, Intl Symp on Computer Performance Modeling Measurements Evaluation,1
+34,NC,SIGMETRICS, ACM Conf on Meas. & Modelling of Comp Sys,1
+35,NC,INFOCOM, Annual Joint Conf IEEE Comp & Comm Soc,1
+36,NC,MOBICOM, ACM Intl Conf on Mobile Computing and Networking,1
+37,SE,IEESSP, IEEE Symposium on Security and Privay,1
+38,SE,CCS, ACM Conf on Comp and Communications Security,1
+39,OS,SOSP, ACM SIGOPS Symp on OS Principles,1
+40,OS,OSDI,  Usenix Symp on OS Design and Implementation,1
+41,DB,ER, Intl Conf on Conceptual Modeling (Conf on the Entity Relationship Approach),3
+42,DB,SSDBM, Intl Conf on Scientific and Statistical DB Mgmt,3
+43,DB,FODO, Intl Conf on Foundation on Data Organization,3
+44,DB,DASFAA, Database Systems for Advanced Applications,3
+45,DB,SSD, Intl Symp on Large Spatial Databases,3
+46,DB,DOOD, Deductive and Object-Oriented Databases,3
+47,DB,CIKM, Intl. Conf on Information and Knowledge Management,3
+48,DB,CoopIS, Conference on Cooperative Information Systems,3
+49,DM,PAKDD, Pacific-Asia Conf on Know. Discovery,3
+50,DM,PKDD, European Conf on Principles and Practice of Knowledge Discovery in Databases,3
+51,DM,DAWAK, Intl Conf on Data Warehousing and Knowledge Discovery,3
+52,DM,SDM, SIAM International Conference on Data Mining,3
 53,AI,AID, Intl Conf on AI in Design,3
 54,AI,ECAI, European Conf on AI,3
-55,AI,ECML, European Conf on Machine
-      Learning,3
-56,AI,GECCO, Genetic and Evolutionary Computation
-      Conference,3
+55,AI,ECML, European Conf on Machine Learning,3
+56,AI,GECCO, Genetic and Evolutionary Computation Conference,3
 57,AI,ICGA, Intl Conf on Genetic Algorithms,3
 58,AI,GP, Genetic Programming Conference,3
 59,AI,IAAI, Innovative Applications of AI,3
 60,AI,ICIP, Intl Conf on Image Processing,3
-61,AI,ICNN/IJCNN, Intl (Joint) Conference on
-      Neural Networks,3
-62,AI,ICPR, Intl Conf on Pattern
-      Recognition,3
-63,AI,ICDAR, Intl Conf on Document Analysis and
-      Recognition,3
-64,AI,ICTAI, IEEE conference on Tools with
-      AI,3
-65,AI,AMAI,  Intl Symp on Artificial Intelligence
-      and Maths,3
-66,NL,EACL - European Association for
-      Computational Linguistic,(NL) EACL - European Association for
-      Computational Linguistics,3
-67,NL,COLING, Intl Conf on
-      Computational Liguistics,3
-68,NL,EMNLP, Conf on Empirical Methods in Natural
-      Language Processing,3
-69,ED,ICALT, IEEE Intl Conf on Advanced Learning
-      Technologies,3
+61,AI,ICNN/IJCNN, Intl (Joint) Conference on Neural Networks,3
+62,AI,ICPR, Intl Conf on Pattern Recognition,3
+63,AI,ICDAR, Intl Conf on Document Analysis and  Recognition,3
+64,AI,ICTAI, IEEE conference on Tools with AI,3
+65,AI,AMAI,  Intl Symp on Artificial Intelligence and Maths,3
+66,NL,EACL,European Association for Computational Linguistic,3
+67,NL,COLING, Intl Conf on Computational Liguistics,3
+68,NL,EMNLP, Conf on Empirical Methods in Natural Language Processing,3
+69,ED,ICALT, IEEE Intl Conf on Advanced Learning Technologies,3
 70,IR,TREC, Text REtrieval Conference,3
-71,IR,ECIR, European Conference on Information
-      Retrieval,3
-72,W3,HYPERTEXT, ACM Conference on Hypertext and
-      Hypermedia,3
-73,W3,EC-web, Intl Conf on Electronic Commerce
-      and Web Technologies,3
-74,W3,WISE, Intl Conf on Web Information Systems
-      Engineering,3
+71,IR,ECIR, European Conference on Information Retrieval,3
+72,W3,HYPERTEXT, ACM Conference on Hypertext and Hypermedia,3
+73,W3,EC-web, Intl Conf on Electronic Commerce and Web Technologies,3
+74,W3,WISE, Intl Conf on Web Information Systems Engineering,3
 75,W3,ICWS, IEEE Intl Conf on Web Services,3
-76,DP,ICDCS, IEEE Intl Conf on Distributed Comp
-      Systems,3
-77,DP,PODC, ACM Symp on Principles of
-      Distributed Computing,3
-78,DP,SPAA, ACM Symp on Parallel Algms and
-      Architecture,3
+76,DP,ICDCS, IEEE Intl Conf on Distributed Comp Systems,3
+77,DP,PODC, ACM Symp on Principles of Distributed Computing,3
+78,DP,SPAA, ACM Symp on Parallel Algms and Architecture,3
 79,DP,ASAP, Intl Conf on Apps for Specific Array Processors,3
 80,DP,CCC,  Cluster Computing Conference,3
-81,DP,ICPADS, IEEE Intl Conf on Parallel and
-      Distributed Systems,3
-82,GV,ECCV, European Conference on Computer
-      Vision,3
+81,DP,ICPADS, IEEE Intl Conf on Parallel and Distributed Systems,3
+82,GV,ECCV, European Conference on Computer Vision,3
 83,GV,EUROGRAPH, European Graphics Conference,3
 84,GV,CGI, Computer Graphics International,3
 85,GV,CA, Computer Animation,3
@@ -151,44 +93,28 @@ id,track,code,name,prestige
 92,NC,ICC,  Intl Conf on Comm,3
 93,NC,WCNC, IEEE Wireless Communications and Networking Conference,3
 94,SE,SECURITY, Usenix Security Symposium,3
-95,SE,ESORICS, European Symposium on Research in
-      Computer Security,3
-96,OS,IEEE Annual Simulation
-      Symposiu,(OS) IEEE Annual Simulation
-      Symposium,3
-97,OS,MASCOTS, Symp Model Analysis & Sim on Comp
-       Telecom Sys,3
-98,DB,DEXA, Database and Expert System
-      Applications,5
-99,DB,IDEAS, Intl Database Engineering and
-      Application Symposium,5
-100,DB,COMAD, Intl Conf on Management of
-      Data,5
-101,DB,BNCOD, British National Conference on
-      Databases,5
+95,SE,ESORICS, European Symposium on Research in Computer Security,3
+96,OS,IEEEASS, IEEE Annual Simulation Symposium,3
+97,OS,MASCOTS, Symp Model Analysis & Sim on Comp Telecom Sys,3
+98,DB,DEXA, Database and Expert System Applications,5
+99,DB,IDEAS, Intl Database Engineering and Application Symposium,5
+100,DB,COMAD, Intl Conf on Management of Data,5
+101,DB,BNCOD, British National Conference on Databases,5
 102,DB,SBBD, Simp&oacutesio Brasileiro de Bancos de Dados,5
-103,DB,ADC, Australasian Database
-      Conference,5
-104,DB,ADBIS, Symposium on Advances in DB and
-      Information Systems,5
-105,DB,DBIS, Intl. Baltic Conference on Data
-      Bases and Information Systems,5
+103,DB,ADC, Australasian Database Conference,5
+104,DB,ADBIS, Symposium on Advances in DB and Information Systems,5
+105,DB,DBIS, Intl. Baltic Conference on Data Bases and Information Systems,5
 106,DB,IFIP-DS, IFIP-DS Conference,5
 107,DB,NGDB, Intl Symp on Next Generation DB Systems and Apps,5
 108,DB,ADTI, Intl Symp on Advanced DB Technologies and Integration,5
-109,DB,MDM - Int. Conf. on Mobile Data Access/Management (MDA/MDM,(DB) MDM - Int. Conf. on Mobile Data Access/Management (MDA/MDM),5
-110,DB,VDB - Visual Database System,(DB) VDB - Visual Database Systems,5
-111,DM,ADMA, Intl Conf on Advanced Data Mining and
-      Applications,5
-112,DM,ICDM, Industrial Conference on Data
-      Mining,5
-113,DM,AusDM, Australasian Data Mining
-      Conference,5
-114,DM,EGC, Journ&eacutees Francophones
-      Extraction et Gestion de  Connaissances,5
+109,DB,MDM, Int. Conf. on Mobile Data Access/Management,5
+110,DB,VDB, Visual Database Systems,5
+111,DM,ADMA, Intl Conf on Advanced Data Mining and Applications,5
+112,DM,ICDM, Industrial Conference on Data Mining,5
+113,DM,AusDM, Australasian Data Mining Conference,5
+114,DM,EGC, Journ&eacutees Francophones Extraction et Gestion de  Connaissances,5
 115,AI,PRICAI, Pacific Rim Intl Conf on AI,5
-116,AI,AusAI, Australian Joint Conf on
-      AI,5
+116,AI,AusAI, Australian Joint Conf on AI,5
 117,AI,ANNIE, Artificial Neural Networks in Engineering,5
 118,AI,ANZIIS, Australian/NZ Conf on Intelligent Inf. Systems,5
 119,AI,CAIA, Conf on AI for Applications,5
@@ -201,26 +127,19 @@ id,track,code,name,prestige
 126,AI,ICPS, International conference on Planning Systems,5
 127,AI,PACES, Pacific Asian Conference on Expert Systems,5
 128,AI,SCAI, Scandinavian Conference on Artifical Intelligence,5
-129,NL,NLDB, Applications of Natural Language to
-      Data Bases,5
+129,NL,NLDB, Applications of Natural Language to Data Bases,5
 130,ED,ICCE, Intl Conf on Computers in Education,5
 131,ED,EDmedia, World Conf on Educational Multimedia Hypermedia  Telecommunications,5
 132,ED,AH, Intl Conf on Adaptive Hypermedia and Adaptive Web-Based Systems,5
 133,W3,APweb, Asia Pacific Web Conference,5
-134,W3,WAIM, Intl Conf on Web-Age
-      Information Management,5
-135,W3,SAINT, Intl Symposium on Applications and
-      the Internet,5
+134,W3,WAIM, Intl Conf on Web-Age Information Management,5
+135,W3,SAINT, Intl Symposium on Applications and the Internet,5
 136,DP,EGC, European Grid Conference,5
 137,DP,MPPOI, Massively Par Proc Using Opt Interconns,5
-138,DP,MassPar, Symp on Frontiers of Massively
-      Parallel Proc,5
-139,DP,SRDS, Symp on Reliable Distributed
-      Systems,5
-140,DP,DAIS, IFIP Intl Conf on Distributed
-      Applications and Interoperable Systems,5
-141,GV,ACCV, Asian Conference on Computer
-      Vision,5
+138,DP,MassPar, Symp on Frontiers of Massively Parallel Proc,5
+139,DP,SRDS, Symp on Reliable Distributed Systems,5
+140,DP,DAIS, IFIP Intl Conf on Distributed Applications and Interoperable Systems,5
+141,GV,ACCV, Asian Conference on Computer Vision,5
 142,MM,MMM, Multimedia Modelling,5
 143,NC,HPCN, High-Performance Computing and Networking Geometry Modeling and Processing,5
 144,SE,ARES, Intl Conf on Availability Reliability and Security,5
@@ -229,8 +148,7 @@ id,track,code,name,prestige
 147,OS,WCSS, World Congress on Systems Simulation,5
 148,OS,ESS, European Simulation Symposium,5
 149,OS,ESM, European Simulation Multiconference,5
-150,OS,FAST, Usenix conference on File and Storage
-      technologies,7
+150,OS,FAST, Usenix conference on File and Storage technologies,7
 151,W3,ECOWS, IEEE European Conference on Web Services,7
 152,W3,ICSOC, International Conference on Service Oriented Computing,7
 153,W3,ICWE, International Conference on Web Engineering,7
