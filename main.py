@@ -51,9 +51,11 @@ def sumCost(chromosome):
         sum = sum + confValues[chromosome[j]-1][5]
     return sum
 # handles cost constraint
+sumList = []
 def isValidChromosome(chromosome) :
     if sumCost(chromosome) > crowdfund_amount :
         return False
+    sumList.append(sumCost(chromosome))
     return True
 '''
 test_chromo = [0, 23, 0, 0, 5]
@@ -63,15 +65,12 @@ randomAwardThreshold = float(70/100)
 # handles interest constraint
 def generateChromosome() :
     chromosome = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    while True :
-        for i in range(0, noOfApplicants) :
-            randomChoice = random.uniform(0,1)
-            if randomChoice > randomAwardThreshold :
-                choiceConf = random.randint(0, len(trackWiseConf[applicantValues[i][4]-1])-1)
-                chromosome[i] = trackWiseConf[applicantValues[i][4]-1][choiceConf]
-        if isValidChromosome(chromosome) :
-            break   
+    for i in range(0, noOfApplicants) :
+        randomChoice = random.randint(0,1)
+        print randomChoice
+        if randomChoice == 1 :
+            choiceConf = random.randint(0, len(trackWiseConf[applicantValues[i][4]-1])-1)
+            chromosome[i] = trackWiseConf[applicantValues[i][4]-1][choiceConf]
     return chromosome
 print generateInitialPopulation()
-
-
+print sumList
