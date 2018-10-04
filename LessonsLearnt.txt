@@ -1,0 +1,4 @@
+Heyaa!
+So this is my first time coding in Python and my first time implementing Genetic Algorithms!
+
+1. Deep copy in Python. 
