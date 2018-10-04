@@ -1,4 +1,5 @@
 Heyaa!
 So this is my first time coding in Python and my first time implementing Genetic Algorithms!
+Here's a record of all I learned from my mistakes.
 
-1. Deep copy in Python. 
+1. Deep copy in Python while handling trackWiseConf list of lists
