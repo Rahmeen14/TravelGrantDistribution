@@ -3,3 +3,5 @@ So this is my first time coding in Python and my first time implementing Genetic
 Here's a record of all I learned from my mistakes.
 
 1. Deep copy in Python while handling trackWiseConf list of lists
+2. __future__, while performing division on floating points
+3. Realised how sameness in data gives ridiculous results, need to make it more diversified
