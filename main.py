@@ -75,7 +75,7 @@ def generateChromosome() :
     chromosome = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     for i in range(0, noOfApplicants) :
         randomChoice = random.randint(0,1)
-        print randomChoice
+        #print randomChoice
         if randomChoice == 1 :
             choiceConf = random.randint(0, len(trackWiseConf[applicantValues[i][4]-1])-1)
             chromosome[i] = trackWiseConf[applicantValues[i][4]-1][choiceConf]
@@ -163,18 +163,17 @@ def alleleWiseCrossover(val1, val2) :
     c = st1[len(st1) - 1]
     st1[len(st1) - 1] = st2[len(st2) - 1]
     st2[len(st2) - 1] = c
-    st1 = ''.join(st1)
-    st2 = ''.join(st2)
-    v1 = int(st1)
-    v2 = int(st2)
+    sT1 = ''.join(st1)
+    sT2 = ''.join(st2)
+    v1 = int(sT1)
+    v2 = int(sT2)
+    '''
     print type(v1)
-    if (v1 < int(150) and v2 < int(150)) :
-        val1 = v2
-        val2 = v1
-    else :
-        t = val2
-        val2 = val1
-        val1 = t
+    print v1
+    print v2
+    '''
+    
+    return val2, val1
 
 def crossover(mating_pool) :
     temp_1 = random.randint(0, len(mating_pool)-1)
@@ -187,9 +186,11 @@ def crossover(mating_pool) :
 
     pivot_random = random.randint(0, noOfApplicants-1)
     for i in range(0, pivot_random) :
-        alleleWiseCrossover(mating_pool[temp_1], mating_pool[temp_2])
+        #print mating_pool[temp_1]
+        mating_pool[temp_1][i], mating_pool[temp_2][i] = alleleWiseCrossover(mating_pool[temp_1][i], mating_pool[temp_2][i])
     for i in range(pivot_random, noOfApplicants) :
-        alleleWiseCrossover(mating_pool[temp_2], mating_pool[temp_1])
+        #print mating_pool[temp_2]
+        mating_pool[temp_2][i], mating_pool[temp_1][i] = alleleWiseCrossover(mating_pool[temp_2][i], mating_pool[temp_1][i])
     
     print mating_pool
     
@@ -206,16 +207,18 @@ def run_ga():
             avg_fitness = avg_fitness + mem_fitness
         avg_fitness = avg_fitness/POPULATION_SIZE
         mating_pool = roulette_wheel_pop(population, get_probability_list(population), 6)
+        print mating_pool
         crossover(mating_pool)
+        print mating_pool
     for i in range(0, POPULATION_SIZE):
          print fitnessOfChromosome(population[i])
-# run_ga()
+run_ga()
 '''
 population = generateInitialPopulation()
 print roulette_wheel_pop(population, get_probability_list(population), POPULATION_SIZE)
 '''
 
-mat_pool = [[0, 0, 97, 15, 0, 39, 0, 0, 76, 19, 0, 8, 65, 128, 0, 0, 29, 0, 56, 0, 126, 0, 18, 144, 142, 0, 0, 28, 0, 0, 113, 0, 0, 0, 0, 65, 0, 147, 86, 0, 70, 0, 128, 13, 0, 0, 8, 0, 0, 143], [59, 0, 0, 66, 0, 0, 37, 0, 0, 0, 64, 0, 0, 0, 70, 22, 0, 0, 60, 0, 8, 67, 0, 96, 0, 143, 0, 0, 0, 80, 0, 0, 1, 0, 0, 0, 0, 145, 0, 0, 0, 39, 65, 123, 0, 48, 0, 0, 0, 94], [114, 49, 45, 128, 0, 0, 143, 70, 0, 0, 60, 0, 0, 0, 0, 0, 140, 130, 116, 66, 62, 15, 18, 0, 0, 94, 0, 0, 137, 75, 0, 0, 109, 18, 55, 0, 0, 0, 0, 34, 69, 0, 0, 0, 44, 0, 0, 0, 0, 0], [0, 0, 0, 67, 0, 0, 93, 0, 0, 132, 61, 0, 66, 0, 70, 0, 140, 17, 0, 0, 0, 0, 69, 148, 34, 0, 0, 27, 135, 0, 0, 105, 105, 70, 0, 65, 0, 0, 141, 0, 0, 95, 67, 126, 40, 6, 127, 15, 17, 0]]
+#mat_pool = [[0, 0, 97, 15, 0, 39, 0, 0, 76, 19, 0, 8, 65, 128, 0, 0, 29, 0, 56, 0, 126, 0, 18, 144, 142, 0, 0, 28, 0, 0, 113, 0, 0, 0, 0, 65, 0, 147, 86, 0, 70, 0, 128, 13, 0, 0, 8, 0, 0, 143], [59, 0, 0, 66, 0, 0, 37, 0, 0, 0, 64, 0, 0, 0, 70, 22, 0, 0, 60, 0, 8, 67, 0, 96, 0, 143, 0, 0, 0, 80, 0, 0, 1, 0, 0, 0, 0, 145, 0, 0, 0, 39, 65, 123, 0, 48, 0, 0, 0, 94]]
 
-crossover(mat_pool)
-alleleWiseCrossover(119, 67)
+#crossover(mat_pool)
+#alleleWiseCrossover(119, 67)
