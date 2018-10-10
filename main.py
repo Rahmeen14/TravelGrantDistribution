@@ -216,7 +216,6 @@ def run_ga():
         population = crossover(mating_pool)
     fitness_of_population = []
     for i in range(0, POPULATION_SIZE):
-        print fitnessOfChromosome(population[i])
         fitness_of_population.append(fitnessOfChromosome(population[i]))
     printResult(population[fitness_of_population.index(max(fitness_of_population))])
     
