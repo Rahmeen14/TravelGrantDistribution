@@ -12,4 +12,5 @@ The scholarships awarded are constrained by the amount of money at disposal.
 
 ## Have a look
 
-![]()
+![Pic1](Pictures/ss1.png)
+![Pic1](Pictures/ss2.png)
