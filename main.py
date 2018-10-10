@@ -182,8 +182,6 @@ def crossover(mating_pool) :
     parent_copy_1 = copy.deepcopy(mating_pool[temp_1])
     parent_copy_2 = copy.deepcopy(mating_pool[temp_2])
     
-    print mating_pool
-
     pivot_random = random.randint(0, noOfApplicants-1)
     for i in range(0, pivot_random) :
         #print mating_pool[temp_1]
@@ -192,13 +190,21 @@ def crossover(mating_pool) :
         #print mating_pool[temp_2]
         mating_pool[temp_2][i], mating_pool[temp_1][i] = alleleWiseCrossover(mating_pool[temp_2][i], mating_pool[temp_1][i])
     
-    print mating_pool
-    
+    return mating_pool
+def printResult(fittest_chromosome) :
+    for i in range(0, noOfApplicants) :
+        if fittest_chromosome[i] != 0 :
+            print applicantValues[i][1] + " : merit % = " + str(applicantValues[i][3]) + " and economic % = " + str(applicantValues[i][2]) + " interest = "+ str(applicantValues[i][4])
+            print "Scholarship = " + str(confValues[fittest_chromosome[i] - 1][3]) + " rank = " + str(confValues[fittest_chromosome[i]-1][4]) + " subject = " + str(tracks_map[confValues[fittest_chromosome[i]-1][1]])
+            print ""
+    print ""
+    print "Total money "+str(sumCost(fittest_chromosome))
+
 def run_ga():
     
     population = generateInitialPopulation()
 
-    for i in range(1000):
+    for i in range(10):
         fitness_list = []
         avg_fitness = 0
         for member in population:
@@ -206,12 +212,14 @@ def run_ga():
             fitness_list.append(mem_fitness)
             avg_fitness = avg_fitness + mem_fitness
         avg_fitness = avg_fitness/POPULATION_SIZE
-        mating_pool = roulette_wheel_pop(population, get_probability_list(population), 6)
-        print mating_pool
-        crossover(mating_pool)
-        print mating_pool
+        mating_pool = roulette_wheel_pop(population, get_probability_list(population), 20)
+        population = crossover(mating_pool)
+    fitness_of_population = []
     for i in range(0, POPULATION_SIZE):
-         print fitnessOfChromosome(population[i])
+        print fitnessOfChromosome(population[i])
+        fitness_of_population.append(fitnessOfChromosome(population[i]))
+    printResult(population[fitness_of_population.index(max(fitness_of_population))])
+    
 run_ga()
 '''
 population = generateInitialPopulation()
