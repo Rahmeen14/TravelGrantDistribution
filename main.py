@@ -110,28 +110,6 @@ def fitnessOfChromosome(chromosome) :
    
     #return float((sigmoid(normalisedTotalPrestige) + sigmoid(normalisedTotalMerit) + sigmoid(normalisedTotalNoOfAwards))/(1 + sigmoid(normalisedCost) + sigmoid(normalisedTotalEconomicFitness)))
     return float(((totalPrestige) + (totalMerit) + (totalNoOfAwards)+ (sumCost(chromosome)))/(1 + (totalEconomicFitness)))
-'''
-population = generateInitialPopulation()
-print sumList
-for i in range(0, POPULATION_SIZE):
-   print fitnessOfChromosome(population[i])
-
-def selection(population, noOfElite) :
-    matingPool = []
-    popuPd = pandas.DataFrame(numpy.array(population), columns=["Index", "Fitness"])
-    popuPd["cum_sum"] = popuPd.Fitness.cumsum()
-    popuPd["cum_perc"] = 100*popuPd.cum_sum/popuPd.Fitness.sum()
-
-    for i in range(0, noOfElite):
-        matingPool.append(population[i][0])
-    for i in range(0, len(population) - noOfElite):
-        pieToBePickedInCircle = 100*random.random()
-        for j in range(0, len(population)):
-            if pieToBePickedInCircle <= popuPd.iat[j, 3]:
-                matingPool.append(population[j][0])
-                break
-    return matingPool
-'''
 
 def generatePopulationFitness(population) :
     population_fitness_dictionary = []
