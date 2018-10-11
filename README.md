@@ -9,3 +9,7 @@ The scholarships awarded are constrained by the amount of money at disposal.
 - Maximise the no. of scholars that are more meritorious.
 - Minimise the no. of scholars that are economically strong, i.e, that can otherwise afford.
 - Maximise the no. of scholarships to more prestigious conferences
+
+## Constraints
+- Total scholarship amount must be less than crowdfunded amount and must be as close to it as possible
+- Applicant must be awarded scholarship to only those conferences whose subjects are of interest to them
