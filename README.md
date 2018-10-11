@@ -9,8 +9,3 @@ The scholarships awarded are constrained by the amount of money at disposal.
 - Maximise the no. of scholars that are more meritorious.
 - Minimise the no. of scholars that are economically strong, i.e, that can otherwise afford.
 - Maximise the no. of scholarships to more prestigious conferences
-
-## Have a look
-
-![Pic1](Pictures/ss1.png)
-![Pic1](Pictures/ss2.png)
